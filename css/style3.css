@@ -3,3 +3,23 @@ a {
   text-decoration: none;
   color: black;
 }
+
+hr {
+  /* border-width: 5px; */
+  /* border-style: solid, double, dashe */
+  /* border-style: solid; */
+  /* border-color: blueviolet; */
+  /* bisa diringkas dalam penulisannya */
+  border: 2px double black;
+}
+
+.kotak {
+  width: 200px;
+  height: 300px;
+  /* border: 1px solid black; */
+  /* mengatur sisi berbeda style bordernya */
+  border-left-style: solid;
+  border-top-style: double;
+  border-bottom-style: dotted;
+  border-right-style: dashed;
+}
