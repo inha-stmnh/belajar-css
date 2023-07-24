@@ -1,3 +1,20 @@
-h1 {
+/* untuk menggunakan property yang sama gunakan , untuk group */
+h1,
+p {
   color: tomato;
+  text-align: center;
+}
+
+.judul,
+.paragraf2 {
+  color: blueviolet;
+}
+
+/* jika masih bisa melakukan seleksi menggunakan elemen html maka gunakan elemen html */
+/* bacanya carikan elemen cite yang berada didalam tag p */
+p cite {
+  color: green;
+}
+blockquote cite {
+  color: blueviolet;
 }

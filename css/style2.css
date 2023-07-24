@@ -1,0 +1,25 @@
+ul li a .navigasi1:link {
+  color: tomato;
+}
+ul li a:active {
+  color: rgb(71, 154, 255);
+}
+ul li a:visited {
+  color: rgb(11, 104, 8);
+}
+ul li a:hover {
+  background-color: rgb(6, 0, 0);
+  font-size: 20px;
+}
+
+.p1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.p2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
