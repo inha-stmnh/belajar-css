@@ -3,6 +3,7 @@
 }
 .uppercase {
   text-transform: uppercase;
+  text-align: justify;
 }
 .lowercase {
   text-transform: lowercase;
@@ -13,4 +14,13 @@ h1 {
 }
 h2 {
   text-align: right;
+}
+
+/* untuk mengatur jarak spasi antar baris gunakan line-height */
+.p1 {
+  line-height: 40px;
+}
+/* untuk mengatur baris pertama atau indentasi */
+.p2 {
+  text-indent: 30px;
 }
