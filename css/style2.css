@@ -1,4 +1,4 @@
-ul li a .navigasi1:link {
+/* ul li a .navigasi1:link {
   color: tomato;
 }
 ul li a:active {
@@ -10,6 +10,15 @@ ul li a:visited {
 ul li a:hover {
   background-color: rgb(6, 0, 0);
   font-size: 20px;
+} */
+ul li a {
+  text-decoration: none;
+
+  color: green;
+}
+ul li a:hover {
+  font-size: 17px;
+  color: rgb(41, 128, 0);
 }
 
 .p1 {
